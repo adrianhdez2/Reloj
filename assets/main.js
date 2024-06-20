@@ -97,7 +97,7 @@ months.filter((item) => {
         month = item.month;
     }
 });
-textMonth.textContent = month;
+textMonth.textContent = month + ", " + date.getFullYear();
 
 setInterval(() => {
     textS.style.transform = "scale(1)";
